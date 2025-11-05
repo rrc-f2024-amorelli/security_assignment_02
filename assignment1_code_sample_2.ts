@@ -24,6 +24,7 @@ function getUserInput(): Promise<string> {
         });
     });
 }
+  
 
 function sendEmail(to: string, subject: string, body: string) {
     // FIX 2: A03:2021 - Injection
