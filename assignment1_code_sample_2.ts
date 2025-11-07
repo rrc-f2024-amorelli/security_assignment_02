@@ -11,6 +11,7 @@ const dbConfig = {
     database: process.env.DB_NAME || 'mydb'
 };
 
+
 function getUserInput(): Promise<string> {
     const rl = readline.createInterface({
         input: process.stdin,
